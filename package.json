@@ -1,0 +1,34 @@
+{
+  "name": "modulo5_atividadefinal",
+  "version": "1.0.0",
+  "description": "Atividade Final do Modulo Nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbsistemas/modulo5_atividadefinal.git"
+  },
+  "keywords": [
+    "node",
+    "atividade",
+    "final"
+  ],
+  "author": "Silvio Batista da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbsistemas/modulo5_atividadefinal/issues"
+  },
+  "homepage": "https://github.com/sbsistemas/modulo5_atividadefinal#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.36.0",
+    "winston": "^3.11.0"
+  }
+}

@@ -1,0 +1,36 @@
+name: Node.js CI
+
+On: 
+  push:
+    branches:["master"]
+  pull_request:
+    branches:["master"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  strategy:
+    matrix:
+      node-version:[20.x,21.x]
+  
+  steps:
+  - name: Checkout code
+    uses: actions/checkout@v3
+  - name: Use node.js ${{matrix.node-version}}
+    uses: actions/setup-node@v3
+    with: 
+      node-version: ${{matrix.node-version}}
+      cache: 'npm'
+  - run: npm install
+  - run: npm install --save-dev sequelize-cli
+  - run: npm ci
+  - run: npm run build --if-present
+  - run: npm test
+
+  - name: Builder and push image
+    env:
+      DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
+      DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+      DOCKER_IMAGE_NAME: teste01023024:latest
+    run: |
+      docker build -t $DOCKER_IMAGE_NAME .

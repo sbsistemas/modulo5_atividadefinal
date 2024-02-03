@@ -1,0 +1,104 @@
+2024-02-03T13:32:13.740Z [livraria-api] info GET /cliente
+2024-02-03T13:32:19.503Z [livraria-api] info GET /cliente/id
+2024-02-03T13:32:25.194Z [livraria-api] info DELETE /cliente/id
+2024-02-03T13:32:31.909Z [livraria-api] error POST  - cliente is not defined
+2024-02-03T13:35:30.543Z [livraria-api] error POST  - cliente is not defined
+2024-02-03T13:36:20.227Z [livraria-api] error POST  - cliente is not defined
+2024-02-03T13:36:53.874Z [livraria-api] error POST  - cliente is not defined
+2024-02-03T13:38:13.480Z [livraria-api] error POST  - cliente is not defined
+2024-02-03T13:38:49.193Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T13:38:53.551Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T13:38:54.524Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T13:38:55.307Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T13:39:03.216Z [livraria-api] info GET /cliente
+2024-02-03T13:39:18.264Z [livraria-api] info GET /cliente/id
+2024-02-03T13:39:25.040Z [livraria-api] info GET /cliente/id
+2024-02-03T13:39:38.392Z [livraria-api] error PUT  - Cliente_id, Nome, Tipo e Proprietário Id são obrigatórios
+2024-02-03T13:39:50.212Z [livraria-api] info DELETE /cliente/id
+2024-02-03T13:39:55.240Z [livraria-api] info GET /cliente
+2024-02-03T13:50:25.606Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T13:50:27.790Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T16:55:23.136Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T16:56:25.252Z [livraria-api] info POST /cliente - {"nome":"nome","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T16:58:17.321Z [livraria-api] info POST /cliente - {"nome":"s","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T17:27:28.642Z [livraria-api] info POST /cliente - {"nome":"sdfsdfsdf","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T17:33:22.418Z [livraria-api] info POST /cliente - {"nome":"fsdfsd","email":"fgdf@yahoo.com.br","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T17:33:52.657Z [livraria-api] error PUT  - Cliente_id, Nome, Tipo e Proprietário Id são obrigatórios
+2024-02-03T17:37:18.175Z [livraria-api] error PUT  - O cliente_id informado não existe
+2024-02-03T17:37:25.598Z [livraria-api] info PUT /cliente - {"clienteId":2,"nome":"Nome do cliente alterado do codigo 1","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y","createdAt":"2024-02-03T13:38:53.545Z","updatedAt":"2024-02-03T17:37:25.586Z"}
+2024-02-03T18:15:13.865Z [livraria-api] error GET  - AutorService.getAutores is not a function
+2024-02-03T18:16:31.109Z [livraria-api] info POST /autor - {"nome":"Nome do Autor","email":"email@email.com","telefone":"(14)11111-1111"}
+2024-02-03T18:16:33.921Z [livraria-api] info POST /autor - {"nome":"Nome do Autor","email":"email@email.com","telefone":"(14)11111-1111"}
+2024-02-03T18:16:34.804Z [livraria-api] info POST /autor - {"nome":"Nome do Autor","email":"email@email.com","telefone":"(14)11111-1111"}
+2024-02-03T18:16:35.407Z [livraria-api] info POST /autor - {"nome":"Nome do Autor","email":"email@email.com","telefone":"(14)11111-1111"}
+2024-02-03T18:17:23.059Z [livraria-api] error GET  - AutorService.getAutores is not a function
+2024-02-03T18:17:30.682Z [livraria-api] info GET /autor/id
+2024-02-03T18:17:37.453Z [livraria-api] info GET /autor/id
+2024-02-03T18:17:44.035Z [livraria-api] info GET /autor/id
+2024-02-03T18:17:49.127Z [livraria-api] info GET /cliente
+2024-02-03T18:19:07.987Z [livraria-api] info GET /autor
+2024-02-03T18:19:24.154Z [livraria-api] info GET /cliente
+2024-02-03T18:21:53.578Z [livraria-api] info GET /cliente
+2024-02-03T18:25:18.902Z [livraria-api] info GET /cliente
+2024-02-03T18:25:25.814Z [livraria-api] error GET  - Cannot destructure property 'senha' of 'cliente' as it is null.
+2024-02-03T18:25:32.851Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:33.848Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:34.691Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:35.539Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:36.235Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:36.940Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:37.596Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:48.813Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:49.525Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:25:50.151Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-03T18:27:22.910Z [livraria-api] info GET /cliente
+2024-02-03T18:29:15.982Z [livraria-api] info GET /cliente
+2024-02-03T18:35:23.494Z [livraria-api] info GET /cliente
+2024-02-03T18:37:09.796Z [livraria-api] info GET /cliente
+2024-02-03T18:45:52.219Z [livraria-api] info POST /autor - {"nome":"Nome do Autor","email":"email@email.com","telefone":"(14)11111-1111"}
+2024-02-03T19:48:00.117Z [livraria-api] info GET /livro
+2024-02-03T19:48:04.754Z [livraria-api] info GET /livro/id
+2024-02-03T19:48:08.136Z [livraria-api] error DELETE  - AutorService is not defined
+2024-02-03T19:50:49.479Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T19:50:51.312Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T19:50:52.134Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T19:50:52.930Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T19:50:56.886Z [livraria-api] info GET /livro/id
+2024-02-03T19:51:02.144Z [livraria-api] info GET /livro/id
+2024-02-03T19:51:12.648Z [livraria-api] info GET /livro/id
+2024-02-03T19:51:21.465Z [livraria-api] info GET /livro
+2024-02-03T19:51:31.269Z [livraria-api] error DELETE  - AutorService is not defined
+2024-02-03T19:51:40.966Z [livraria-api] info GET /livro
+2024-02-03T19:51:43.239Z [livraria-api] info GET /livro
+2024-02-03T19:51:44.247Z [livraria-api] info GET /livro
+2024-02-03T19:51:46.721Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T19:52:13.296Z [livraria-api] info GET /livro/id
+2024-02-03T19:52:14.520Z [livraria-api] info GET /livro/id
+2024-02-03T19:52:17.870Z [livraria-api] error DELETE  - AutorService is not defined
+2024-02-03T19:52:19.143Z [livraria-api] error DELETE  - AutorService is not defined
+2024-02-03T19:54:41.373Z [livraria-api] info GET /livro/id
+2024-02-03T19:54:45.839Z [livraria-api] info DELETE /livro/id $(req.params.id)
+2024-02-03T19:54:50.042Z [livraria-api] info DELETE /livro/id $(req.params.id)
+2024-02-03T19:54:56.332Z [livraria-api] info GET /livro
+2024-02-03T19:55:07.864Z [livraria-api] error PUT  - livro is not defined
+2024-02-03T19:55:15.394Z [livraria-api] error PUT  - livro is not defined
+2024-02-03T19:55:24.742Z [livraria-api] error PUT  - livro is not defined
+2024-02-03T19:57:34.819Z [livraria-api] info DELETE /livro/id   id=1
+2024-02-03T19:57:36.529Z [livraria-api] info DELETE /livro/id   id=1
+2024-02-03T19:57:37.381Z [livraria-api] info DELETE /livro/id   id=1
+2024-02-03T19:57:41.943Z [livraria-api] info DELETE /livro/id   id=2
+2024-02-03T19:57:43.809Z [livraria-api] info DELETE /livro/id   id=2
+2024-02-03T19:57:44.684Z [livraria-api] info DELETE /livro/id   id=2
+2024-02-03T20:13:59.667Z [livraria-api] info GET /venda
+2024-02-03T20:14:04.618Z [livraria-api] info GET /venda/id
+2024-02-03T20:17:57.413Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-03T20:18:05.557Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-03T20:18:06.366Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-03T20:22:24.828Z [livraria-api] error POST  - column "cliente_id" of relation "vendas" does not exist
+2024-02-03T20:24:32.724Z [livraria-api] error POST  - column "cliente_id" does not exist
+2024-02-03T20:25:14.259Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-03T20:26:27.075Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-03T20:28:01.804Z [livraria-api] error POST  - column "autor_id" of relation "livros" does not exist
+2024-02-03T20:28:28.113Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T20:28:32.682Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-03T20:28:33.419Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
