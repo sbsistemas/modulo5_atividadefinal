@@ -28,11 +28,11 @@ async function getLivro(id) {
 
 }
 
-async function getVendasByAutorId(id) {
+async function getLivrosByAutor(id) {
     try {
-        return await Animal.findAll( {
+        return await Livro.findAll( {
             where: {
-                proprietarioId: id
+                autorId: id
             }
         });
 
@@ -57,6 +57,20 @@ async function updateLivro(livro) {
     
 }
 
+async function updateEstoque(livro) {
+    try {
+        await Livro.update({ 
+                  estoque: livro.estoque 
+               }, {
+            where: {
+                livroId: livro.livroId
+            }
+        })
+    } catch (err) {
+        throw err;
+    }
+}
+
 async function deleteLivro(id) {
     try {
         await Livro.destroy({
@@ -75,7 +89,9 @@ export default {
     getLivros,
     getLivro,
     updateLivro,
-    deleteLivro
+    deleteLivro,
+    getLivrosByAutor,
+    updateEstoque
     
 
 }

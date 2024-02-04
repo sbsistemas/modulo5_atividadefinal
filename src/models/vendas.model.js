@@ -4,7 +4,7 @@ import Cliente from "./clientes.model.js";
 import Livro from "./livros.model.js";
 
 const Venda = db.sequelize.define('Vendas', {
-  venda_id: {
+  vendaId: {
     type: Sequelize.INTEGER,
     autoIncrement: true,
     allowNull: false,

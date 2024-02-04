@@ -102,3 +102,101 @@
 2024-02-03T20:28:28.113Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
 2024-02-03T20:28:32.682Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
 2024-02-03T20:28:33.419Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-04T12:02:15.118Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":3}
+2024-02-04T12:02:29.758Z [livraria-api] error DELETE  - VendasService is not defined
+2024-02-04T12:04:02.840Z [livraria-api] error DELETE  - VendasService.getVendaByCliente is not a function
+2024-02-04T12:06:43.033Z [livraria-api] error DELETE  - vendas.length is not a function
+2024-02-04T12:07:23.101Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:08:52.110Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:08:55.769Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:09:07.275Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:09:11.327Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:09:17.607Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T12:09:25.984Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:10:07.537Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:10:11.439Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:10:18.376Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:10:25.760Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:12:07.785Z [livraria-api] info DELETE /cliente/id
+2024-02-04T12:12:12.879Z [livraria-api] error DELETE  - Há venda relacioanada ao cliente, e não pode ser excluído!
+2024-02-04T12:12:21.847Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-04T12:12:29.197Z [livraria-api] info DELETE /livro/id   id=9
+2024-02-04T12:12:40.087Z [livraria-api] error DELETE  - Há vendas associado ao livro, e portanto não pode ser excluído!
+2024-02-04T12:16:33.413Z [livraria-api] info POST /autor - {"nome":"nome do autor","email":"email@gmail.com","telefone":"(14)11111-1111"}
+2024-02-04T12:16:42.857Z [livraria-api] info DELETE /cliente/id
+2024-02-04T12:16:53.230Z [livraria-api] info GET /autor
+2024-02-04T12:17:02.615Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-04T12:18:49.190Z [livraria-api] error DELETE  - livroService.getVendasByAutor is not a function
+2024-02-04T12:21:10.923Z [livraria-api] error DELETE  - LivroRepository.getLivroByAutor is not a function
+2024-02-04T12:22:17.484Z [livraria-api] error DELETE  - Há Livro(s) associado ao autor, e portanto não pode ser excluído!
+2024-02-04T12:22:22.341Z [livraria-api] info DELETE /autor/id
+2024-02-04T12:38:28.378Z [livraria-api] error POST  - Missing where attribute in the options parameter
+2024-02-04T12:39:31.284Z [livraria-api] error POST  - Missing where attribute in the options parameter
+2024-02-04T12:40:50.925Z [livraria-api] error POST  - Missing where attribute in the options parameter
+2024-02-04T12:42:27.819Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:31.392Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:32.353Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:33.129Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:34.126Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:35.544Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:36.445Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:37.482Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:38.217Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:39.228Z [livraria-api] info POST /venda - {"valor":100.1,"data":"03/02/2024","clienteId":4,"livroId":6}
+2024-02-04T12:42:40.058Z [livraria-api] error POST  - O livroId não tem disponibilidade no estoque
+2024-02-04T12:42:41.589Z [livraria-api] error POST  - O livroId não tem disponibilidade no estoque
+2024-02-04T12:42:42.479Z [livraria-api] error POST  - O livroId não tem disponibilidade no estoque
+2024-02-04T12:46:31.893Z [livraria-api] info GET /venda
+2024-02-04T12:47:06.325Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:50:14.027Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:51:15.695Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:51:17.723Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:52:26.055Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:52:31.209Z [livraria-api] error DELETE  - Cannot access 'venda' before initialization
+2024-02-04T12:53:58.053Z [livraria-api] error DELETE  - column "vendaId" does not exist
+2024-02-04T12:56:43.738Z [livraria-api] error DELETE  - column "vendaId" does not exist
+2024-02-04T12:56:45.698Z [livraria-api] error DELETE  - column "vendaId" does not exist
+2024-02-04T12:56:53.712Z [livraria-api] error DELETE  - column "vendaId" does not exist
+2024-02-04T12:58:18.648Z [livraria-api] error DELETE  - vendaId is not defined
+2024-02-04T12:59:13.997Z [livraria-api] error DELETE  - WHERE parameter "vendaId" has invalid "undefined" value
+2024-02-04T12:59:21.452Z [livraria-api] error DELETE  - WHERE parameter "vendaId" has invalid "undefined" value
+2024-02-04T13:09:16.702Z [livraria-api] error DELETE  - column "vendaId" does not exist
+2024-02-04T13:13:02.298Z [livraria-api] error DELETE  - invalid input syntax for type integer: "[object SequelizeInstance:Vendas]"
+2024-02-04T13:14:47.715Z [livraria-api] error DELETE  - invalid input syntax for type integer: "[object SequelizeInstance:Vendas]"
+2024-02-04T13:15:37.265Z [livraria-api] error DELETE  - invalid input syntax for type integer: "[object SequelizeInstance:Vendas]"
+2024-02-04T13:17:06.505Z [livraria-api] info GET /venda
+2024-02-04T13:17:18.184Z [livraria-api] info GET /venda/id
+2024-02-04T13:18:09.835Z [livraria-api] info DELETE /venda/id   id=11
+2024-02-04T13:18:12.930Z [livraria-api] info DELETE /venda/id   id=11
+2024-02-04T13:18:22.632Z [livraria-api] info DELETE /venda/id   id=16
+2024-02-04T13:18:26.969Z [livraria-api] info DELETE /venda/id   id=15
+2024-02-04T13:20:12.802Z [livraria-api] error DELETE  - invalid input syntax for type integer: "[object SequelizeInstance:Vendas]"
+2024-02-04T13:22:18.002Z [livraria-api] error DELETE  - A venda informada informado não existe
+2024-02-04T13:22:33.196Z [livraria-api] info DELETE /venda/id   id=12
+2024-02-04T13:23:09.088Z [livraria-api] info DELETE /venda/id   id=13
+2024-02-04T13:32:10.023Z [livraria-api] error POST  - bcrypt is not defined
+2024-02-04T13:33:05.512Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$xdT7SAY7i4xYcATwXpDaAu0H./aPv6AAlb6ik8Z4okyDl8bNvtK2K","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:11.758Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$9JweriTlT.vUrXMGqlsdNe/As8zuZlA3KivXphgOHjSYofLprZHnq","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:12.702Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$zK9IhEwnstAgZBGOoPBTQOUjnRHmaV9wQJlxUW.ufsuD0wRWXEpsu","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:13.581Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$05ASOFs4GPFLY/87JDjQHu1lv1HzUBJb.27Es3Kg50jslrsuJH6W6","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:14.340Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$Si6GUjeBAPax2vg23lxMweDwyqefUmwALDQw3rncLugwH/LUUMTFS","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:15.191Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$CDIIlETEKxa9Ees0qAJV0OQkVhLQupIyXIRDZpmHbBwJy90jQA3HC","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:15.973Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$D4YBrV60o4jqn3.jrwJ3ee7FebIvRi.JwEFPsgmRRqVm6MO58iOv2","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:16.856Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$/ihqrnrhzqLcEvByYQWPZOuIdifR9YWsqg.75hjhhUWdmz3X.h6QW","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:17.642Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$JaBuvZd/0JjICTyrrzu5Oe8v0NX8LC3E9RxQwbHMlLV.8TRLHFEeW","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:18.509Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$Npqt19fiddftRXSjzBLojeeYEPP8EhvOa56hrEfFl9r0.FTEg4iU2","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:19.309Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$./5/YHLOdk/AMA.VhrfhUOsvOWfC3edNE2NmLl.MsyFIVYUFpEmBe","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:20.054Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$IepLkbeIxCECHY1yvWyfG.5riMdeBEW10E0HadI7e41ykI5J8KGkS","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:21.092Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$hfHtAszOVuQZy1FdNdSgWeznxBtBHKiNxKKu1XTs/RNEEXBP7jtxi","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:33:22.373Z [livraria-api] info POST /cliente - {"nome":"Nome do cliente","email":"email@email.com","senha":"$2b$10$6Tc22VVudwtJZqgfHEReieB78RwLEUxyukJwhzixBW2Nz87ew2q1q","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-04T13:40:22.699Z [livraria-api] error GET  - Cliente.findAll(...).them is not a function
+2024-02-04T13:40:48.175Z [livraria-api] error GET  - result.toJSON is not a function
+2024-02-04T13:41:27.611Z [livraria-api] error GET  - Cannot convert undefined or null to object
+2024-02-04T13:42:33.859Z [livraria-api] error GET  - result.toJSON is not a function
+2024-02-04T13:47:06.536Z [livraria-api] error GET  - column "clienteId, nome, email, telefone, endereco" does not exist
+2024-02-04T13:47:57.753Z [livraria-api] error GET  - result.json is not a function
+2024-02-04T13:48:25.883Z [livraria-api] error GET  - res is not defined
+2024-02-04T13:49:46.971Z [livraria-api] info GET /cliente
+2024-02-04T13:51:09.355Z [livraria-api] info GET /cliente
+2024-02-04T13:51:13.904Z [livraria-api] error GET  - removePassword is not defined
+2024-02-04T13:51:39.745Z [livraria-api] info GET /cliente/id

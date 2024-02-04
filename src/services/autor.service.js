@@ -1,4 +1,5 @@
 import AutorRepository from "../repositories/autor.repository.js"
+import LivroService from "./livro.service.js";
 
 async function createAutor(autor) {
     return await AutorRepository.insertAutor(autor);
@@ -15,6 +16,10 @@ async function getAutor(id) {
 
 async function deleteAutor(id) {
     //precisa verificar se tem livro associado ao autor
+    const livros = await LivroService.getLivrosByAutor(id);
+    if (livros.length>0) {
+        throw new Error("Há Livro(s) associado ao autor, e portanto não pode ser excluído!");    
+    }
     await AutorRepository.deleteAutor(id);
 }
 

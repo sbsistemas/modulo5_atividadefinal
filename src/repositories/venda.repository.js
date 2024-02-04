@@ -4,6 +4,7 @@ import Venda from "../models/vendas.model.js";
 async function insertVenda(venda) {
     try {
         return await Venda.create(venda);
+
     } catch (err) {
         throw err;
     }
@@ -28,21 +29,34 @@ async function getVenda(id) {
 
 }
 
-async function getVendasByAutorId(id) {
+async function getVendasByCliente(id) {
     try {
-        return await Animal.findAll( {
+        return await Venda.findAll({
             where: {
-                proprietarioId: id
+                clienteId: id
             }
         });
 
     } catch (err) {
         throw err;
-    }    
-    
+    }
+
+}
+async function getVendasByLivro(id) {
+    try {
+        return await Venda.findAll({
+            where: {
+                livroId: id
+            }
+        });
+
+    } catch (err) {
+        throw err;
+    }
+
 }
 
-async function updateVenda(livro) {
+async function updateVenda(venda) {
 
     try {
         await Venda.update(venda, {
@@ -54,7 +68,7 @@ async function updateVenda(livro) {
     } catch (err) {
         throw err;
     }
-    
+
 }
 
 async function deleteVenda(id) {
@@ -70,12 +84,15 @@ async function deleteVenda(id) {
 
 }
 
+
 export default {
     insertVenda,
     getVendas,
     getVenda,
     updateVenda,
-    deleteVenda
-    
+    deleteVenda,
+    getVendasByCliente,
+    getVendasByLivro
+
 
 }

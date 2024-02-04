@@ -3,7 +3,7 @@ import Cliente from "../models/clientes.model.js";
 
 async function insertCliente(cliente) {
     try {
-        return removePassword(await Cliente.create(cliente));
+        return await Cliente.create(cliente);
     } catch (err) {
         throw err;
     }
@@ -11,7 +11,9 @@ async function insertCliente(cliente) {
 
 async function getClientes() {
     try {
-        return removePassword(await Cliente.findAll());
+        return await Cliente.findAll( {
+            attributes: ['clienteId', 'nome', 'email', 'telefone', 'endereco'] });
+        
 
     } catch (err) {
         throw err;
@@ -21,7 +23,7 @@ async function getClientes() {
 
 async function getCliente(id) {
     try {
-        return removePassword(await Cliente.findByPk(id));
+        return await Cliente.findByPk(id, {attributes: ['clienteId', 'nome', 'email', 'telefone', 'endereco']});
     } catch (err) {
         throw err;
     }
@@ -30,11 +32,11 @@ async function getCliente(id) {
 
 async function getVendasByClienteId(id) {
     try {
-        return removePassword(await Animal.findAll( {
+        return await Animal.findAll( {
             where: {
                 proprietarioId: id
             }
-        }));
+        });
 
     } catch (err) {
         throw err;
@@ -50,7 +52,7 @@ async function updateCliente(cliente) {
                 clienteId: cliente.clienteId
             }
         })
-        return await removePassword(getCliente(cliente.clienteId));
+        return await getCliente(cliente.clienteId);
     } catch (err) {
         throw err;
     }
@@ -70,13 +72,6 @@ async function deleteCliente(id) {
 
 }
 
-function removePassword(cliente) {
-
-
-    return cliente;
-    
-
-}
 
 export default {
     insertCliente,

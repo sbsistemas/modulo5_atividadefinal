@@ -38,6 +38,7 @@ async function getCliente(req, res, next) {
 
 async function deleteCliente(req, res, next) {
     try {
+        
         await ClienteService.deleteCliente(req.params.id);
         res.end();
         logger.info("DELETE /cliente/id");

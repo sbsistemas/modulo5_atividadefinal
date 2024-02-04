@@ -1,5 +1,5 @@
 import LivroRepository from "../repositories/livro.repository.js";
-
+import VendasService from "./venda.service.js";
 async function createLivro(livro) {
     return await LivroRepository.insertLivro(livro);
     
@@ -13,9 +13,22 @@ async function getLivro(id) {
     return await LivroRepository.getLivro(id);
 }
 
+async function getLivrosByAutor(id) {
+    return await LivroRepository.getLivrosByAutor(id);
+}
+
 async function deleteLivro(id) {
-    //precisa verificar se tem livro associado na venda
+    const vendas = await VendasService.getVendasByLivro(id);
+    if (vendas.length>0) {
+        throw new Error("Há vendas associado ao livro, e portanto não pode ser excluído!");    
+    }
     await LivroRepository.deleteLivro(id);
+   
+}
+
+async function updateEstoque(livro) {
+    return await LivroRepository.updateEstoque(livro);
+    
 }
 
 async function updateLivro(livro)  {
@@ -30,5 +43,7 @@ export default {
     getLivros,
     getLivro,
     deleteLivro,
-    updateLivro
+    updateLivro,
+    getLivrosByAutor,
+    updateEstoque
 }
