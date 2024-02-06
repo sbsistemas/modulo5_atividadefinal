@@ -1,3 +1,4 @@
+import livroService from "../services/livro.service.js";
 import LivroService from "../services/livro.service.js";
 
 async function createLivro(req, res, next) {
@@ -62,12 +63,76 @@ async function updateLivro(req, res, next) {
 
 }
 
+async function createLivroInfo(req, res, next) {
+    try {
+        let livroInfo = req.body;
+        let retorno = await livroService.createLivroInfo(livroInfo);
+        res.send(retorno);
+        logger.info(`POST /post  - ${JSON.stringify(livroInfo)}`);
 
+    } catch (err) {
+        next(err);
+    }
+}
+
+async function getLivrosInfo(req, res, next ) {
+    try {
+        res.send(await livroService.getLivrosInfo());
+        logger.info(`GET /post  `);
+
+    } catch (err) {
+        next(err);
+    }    
+
+}
+
+async function updateLivroInfo(req, res, next ) {
+    console.log("aqui");
+    try {
+        let livroInfo = req.body;
+        res.send(await livroService.updateLivroInfo(livroInfo));
+        logger.info(`PUT /post/avaliacao  `);
+
+    } catch (err) {
+        next(err);
+    }    
+
+}
+async function deleteLivroInfo(req, res, next) {
+    try {
+        await LivroService.deleteLivroInfo(req.params.id);
+        res.end();
+        logger.info(`DELETE /livro/info/id   id=${req.params.id}`);
+
+    } catch (err) {
+        next(err);
+    }
+
+}
+
+
+async function updateAvaliacao(req, res, next ) {
+    console.log("aqui");
+    try {
+        let livroInfo = req.body;
+        res.send(await livroService.updateAvaliacao(livroInfo));
+        logger.info(`POST /post/avaliacao  `);
+
+    } catch (err) {
+        next(err);
+    }    
+  
+}
 export default {
     createLivro,
     getLivros,
     getLivro,
     deleteLivro,
-    updateLivro
+    updateLivro,
+    updateLivroInfo,
+    getLivrosInfo,
+    createLivroInfo,
+    updateAvaliacao,
+    deleteLivroInfo
 
 }

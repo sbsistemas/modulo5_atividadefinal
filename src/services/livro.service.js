@@ -1,3 +1,4 @@
+import livroRepository from "../repositories/livro.repository.js";
 import LivroRepository from "../repositories/livro.repository.js";
 import VendasService from "./venda.service.js";
 async function createLivro(livro) {
@@ -38,6 +39,43 @@ async function updateLivro(livro)  {
     throw new Error("O livroId informado não existe");    
 }
 
+async function createLivroInfo(livroInfo) {
+
+    const livroRelacional = await livroRepository.getLivro(livroInfo.livroId);
+    if (!livroRelacional) {
+        throw new Error("O livroId não está cadastrado");    
+    }
+
+    const livroJaCadastrado = await LivroRepository.getLivroInfo(livroInfo.livroId);
+    if (livroJaCadastrado) {
+        throw new Error("O livroId já está cadastrado");    
+    } else {
+        return await LivroRepository.createLivroInfo(livroInfo);
+    }
+    
+}
+
+async function updateLivroInfo(livroInfo) {
+    return await LivroRepository.updateLivroInfo(livroInfo);
+}
+
+async function getLivroInfo(id) {
+    return await LivroRepository.getLivroInfo(id);
+}
+
+async function deleteLivroInfo(id) {
+    return await LivroRepository.deleteLivroInfo(id);
+}
+
+async function getLivrosInfo() {
+    return await LivroRepository.getLivrosInfo();
+}
+
+async function updateAvaliacao(livroInfo) {
+    return await LivroRepository.updateAvaliacao(livroInfo);
+}
+
+
 export default {
     createLivro,
     getLivros,
@@ -45,5 +83,11 @@ export default {
     deleteLivro,
     updateLivro,
     getLivrosByAutor,
-    updateEstoque
+    updateEstoque,
+    createLivroInfo,
+    updateLivroInfo,
+    getLivrosInfo,
+    getLivroInfo,
+    updateAvaliacao,
+    deleteLivroInfo
 }

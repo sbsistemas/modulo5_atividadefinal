@@ -200,3 +200,166 @@
 2024-02-04T13:51:09.355Z [livraria-api] info GET /cliente
 2024-02-04T13:51:13.904Z [livraria-api] error GET  - removePassword is not defined
 2024-02-04T13:51:39.745Z [livraria-api] info GET /cliente/id
+2024-02-05T22:47:42.128Z [livraria-api] error POST  - livroInfoService is not defined
+2024-02-05T22:49:04.762Z [livraria-api] error POST  - LivroRepository.createPost is not a function
+2024-02-05T22:50:54.768Z [livraria-api] error POST  - connect ECONNREFUSED 127.0.0.1:27017
+2024-02-06T09:19:01.040Z [livraria-api] error POST  - post is not defined
+2024-02-06T09:38:28.728Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c1fe14a89b5437a7bfd2dc"}
+2024-02-06T10:03:54.580Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c2040ac1a7a88369b4a12d"}
+2024-02-06T10:03:55.893Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c2040bc1a7a88369b4a12e"}
+2024-02-06T10:03:56.807Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c2040cc1a7a88369b4a12f"}
+2024-02-06T10:03:58.055Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c2040ec1a7a88369b4a130"}
+2024-02-06T10:03:58.933Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c2040ec1a7a88369b4a131"}
+2024-02-06T10:04:00.132Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20410c1a7a88369b4a132"}
+2024-02-06T10:04:01.024Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20411c1a7a88369b4a133"}
+2024-02-06T10:04:02.321Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20412c1a7a88369b4a134"}
+2024-02-06T10:04:03.220Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20413c1a7a88369b4a135"}
+2024-02-06T10:04:04.430Z [livraria-api] info POST /post  - {"livroId":1,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20414c1a7a88369b4a136"}
+2024-02-06T10:12:05.434Z [livraria-api] info POST /post  - {"livroId":2,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c205f5c1a7a88369b4a137"}
+2024-02-06T10:18:23.904Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:19:47.374Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:20:13.735Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:20:15.665Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:20:18.088Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:20:22.890Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:20:30.762Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:22:59.462Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:24:54.245Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:25:24.691Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:26:08.767Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:26:59.945Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:28:13.976Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:28:29.450Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:29:05.299Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:29:07.188Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:29:14.850Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:30:17.825Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:30:21.287Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:31:53.321Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:32:28.139Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:33:01.065Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:33:04.890Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:33:10.928Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:33:23.559Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:35:41.190Z [livraria-api] info POST /post  - {"livroId":20,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20b7defab8c20eb3f798a"}
+2024-02-06T10:35:47.565Z [livraria-api] info POST /post  - {"livroId":21,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20b83efab8c20eb3f798b"}
+2024-02-06T10:35:50.175Z [livraria-api] info POST /post  - {"livroId":21,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20b86efab8c20eb3f798c"}
+2024-02-06T10:35:51.899Z [livraria-api] info POST /post  - {"livroId":21,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20b87efab8c20eb3f798d"}
+2024-02-06T10:35:53.190Z [livraria-api] info POST /post  - {"livroId":21,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20b89efab8c20eb3f798e"}
+2024-02-06T10:37:01.070Z [livraria-api] info POST /post  - {"livroId":30,"descricao":"Descricao do livro - livro 30","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20bcdcab34eabd04ade61"}
+2024-02-06T10:37:43.802Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:37:57.890Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:39:32.067Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:40:28.241Z [livraria-api] info POST /post  - {"livroId":50,"descricao":"Descricao do livro - livro 50","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20c9c5ffdfcfa13be1833"}
+2024-02-06T10:40:32.632Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:40:35.581Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:40:42.465Z [livraria-api] info POST /post  - {"livroId":51,"descricao":"Descricao do livro - livro 51","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c20caa5ffdfcfa13be1834"}
+2024-02-06T10:42:18.848Z [livraria-api] error POST  - O livroId não está cadastrado
+2024-02-06T10:42:32.245Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:33.743Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:34.736Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:36.130Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:36.959Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:38.810Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:40.185Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:41.257Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:42.337Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:43.720Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:44.852Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T10:42:52.191Z [livraria-api] error POST  - O livroId não está cadastrado
+2024-02-06T10:42:56.952Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T10:50:50.679Z [livraria-api] error GET  - invalid input syntax for type integer: "info"
+2024-02-06T10:54:36.428Z [livraria-api] error GET  - invalid input syntax for type integer: "info"
+2024-02-06T10:59:56.003Z [livraria-api] info GET /post  
+2024-02-06T11:00:15.139Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T11:00:16.612Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T11:00:24.188Z [livraria-api] info POST /post  - {"livroId":18,"descricao":"Descricao do livro - livro 51","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c211487329fab8ba351ab4"}
+2024-02-06T11:00:29.609Z [livraria-api] info GET /post  
+2024-02-06T11:05:27.586Z [livraria-api] info GET /post  
+2024-02-06T11:52:03.852Z [livraria-api] error GET  - connect ECONNREFUSED 127.0.0.1:27018
+2024-02-06T11:53:34.462Z [livraria-api] error GET  - client.db(...).collection(...).findAll is not a function
+2024-02-06T11:54:44.735Z [livraria-api] info GET /post  
+2024-02-06T11:55:22.522Z [livraria-api] info GET /post  
+2024-02-06T12:21:38.355Z [livraria-api] error GET  - Attempted to check out a connection from closed connection pool
+2024-02-06T12:21:47.999Z [livraria-api] error GET  - Attempted to check out a connection from closed connection pool
+2024-02-06T12:22:09.115Z [livraria-api] error POST  - O livroId não está cadastrado
+2024-02-06T12:22:20.447Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T12:22:29.449Z [livraria-api] info POST /post  - {"livroId":19,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c224858babede78a5460e6"}
+2024-02-06T12:22:35.857Z [livraria-api] error GET  - Attempted to check out a connection from closed connection pool
+2024-02-06T12:24:13.831Z [livraria-api] info GET /post  
+2024-02-06T12:45:40.464Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:45:49.549Z [livraria-api] info GET /post  
+2024-02-06T12:46:41.657Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:46:49.159Z [livraria-api] info GET /post  
+2024-02-06T12:47:23.805Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:48:45.568Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:53:44.620Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:54:16.149Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:55:08.760Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T12:55:16.758Z [livraria-api] info GET /post  
+2024-02-06T12:55:43.505Z [livraria-api] info GET /post  
+2024-02-06T12:55:48.700Z [livraria-api] info GET /post  
+2024-02-06T12:56:53.872Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T12:58:42.384Z [livraria-api] error PUT  - _id is not defined
+2024-02-06T13:03:42.056Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T13:03:46.943Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T13:04:49.912Z [livraria-api] error PUT  - client.ObjectId is not a function
+2024-02-06T13:06:38.411Z [livraria-api] error PUT  - ObjectId.$set is not a function
+2024-02-06T13:08:01.866Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T15:02:23.048Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T15:03:06.866Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T15:04:06.248Z [livraria-api] error PUT  - unknown top level operator: $_oid. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.
+2024-02-06T15:05:35.369Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T15:06:19.603Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:07:58.485Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T15:08:20.794Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T15:10:17.218Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:10:30.093Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:11:20.763Z [livraria-api] error PUT  - objectId._bsontype is not a function
+2024-02-06T15:11:58.220Z [livraria-api] error PUT  - Assignment to constant variable.
+2024-02-06T15:12:23.953Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:13:01.025Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:15:06.994Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:15:33.861Z [livraria-api] error PUT  - bjectId is not defined
+2024-02-06T15:15:50.678Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T15:15:59.378Z [livraria-api] info GET /post  
+2024-02-06T16:06:58.868Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:07:04.969Z [livraria-api] info GET /post  
+2024-02-06T16:08:10.065Z [livraria-api] error PUT  - Assignment to constant variable.
+2024-02-06T16:09:13.437Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:11:06.469Z [livraria-api] error PUT  - objectId is not a function
+2024-02-06T16:11:30.740Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T16:12:40.835Z [livraria-api] error PUT  - mongoose is not defined
+2024-02-06T16:13:50.709Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T16:14:31.553Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T16:16:04.738Z [livraria-api] error PUT  - Class constructor ObjectId cannot be invoked without 'new'
+2024-02-06T16:16:30.378Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T16:21:50.442Z [livraria-api] error PUT  - ObjectId is not a constructor
+2024-02-06T16:21:55.143Z [livraria-api] error PUT  - ObjectId is not a constructor
+2024-02-06T16:22:51.255Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T16:27:17.866Z [livraria-api] error PUT  - _id is not defined
+2024-02-06T16:35:08.357Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:35:14.117Z [livraria-api] info GET /post  
+2024-02-06T16:48:28.826Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:48:44.940Z [livraria-api] info GET /post  
+2024-02-06T16:48:59.080Z [livraria-api] info GET /post  
+2024-02-06T16:50:25.944Z [livraria-api] info GET /post  
+2024-02-06T16:50:31.126Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:51:32.025Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:52:33.962Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:53:18.284Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:54:06.926Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:54:54.404Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T16:55:08.522Z [livraria-api] info GET /post  
+2024-02-06T16:56:23.926Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T16:57:03.467Z [livraria-api] error PUT  - _id is not defined
+2024-02-06T16:58:26.843Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:03:17.259Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:04:11.887Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:07:43.085Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:08:09.633Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:09:08.588Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:10:27.971Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:11:30.315Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
+2024-02-06T17:11:51.982Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T17:12:00.790Z [livraria-api] info GET /post  

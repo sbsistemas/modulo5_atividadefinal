@@ -5,7 +5,6 @@ import autorRouter from "./routes/autor.router.js";
 import livroRouter from "./routes/livro.router.js";
 import vendaRouter from "./routes/venda.router.js";
 
-
 const app = express();
 
 const { combine, timestamp, label, printf } = winston.format;
