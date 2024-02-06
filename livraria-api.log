@@ -363,3 +363,235 @@
 2024-02-06T17:11:30.315Z [livraria-api] error PUT  - Performing an update on the path '_id' would modify the immutable field '_id'
 2024-02-06T17:11:51.982Z [livraria-api] info PUT /post/avaliacao  
 2024-02-06T17:12:00.790Z [livraria-api] info GET /post  
+2024-02-06T18:25:18.860Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:20.593Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:21.635Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:28.460Z [livraria-api] info GET /post  
+2024-02-06T18:25:40.735Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:41.488Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:42.256Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:42.961Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:43.597Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:44.174Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:44.735Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:45.297Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:45.859Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:46.400Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:46.954Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:25:52.048Z [livraria-api] info GET /post  
+2024-02-06T18:26:07.084Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:07.774Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:08.356Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:08.979Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:09.549Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:10.122Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:10.653Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:11.184Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:11.748Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:12.231Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:12.954Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:13.416Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:13.753Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:14.116Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:14.460Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:14.890Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:15.259Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:15.593Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:15.977Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:16.339Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:16.722Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:17.078Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:17.462Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:17.849Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:18.245Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:26:21.461Z [livraria-api] info GET /post  
+2024-02-06T18:28:41.956Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:28:44.173Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:28:45.607Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:30:20.249Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:46.655Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:52.208Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:53.060Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:53.879Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:54.651Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:34:58.293Z [livraria-api] info DELETE /livro/info/id   id=1000
+2024-02-06T18:35:00.579Z [livraria-api] info DELETE /livro/info/id   id=1000
+2024-02-06T18:36:03.077Z [livraria-api] info GET /post  
+2024-02-06T18:36:14.844Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:15.748Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:16.363Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:16.863Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:17.344Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:17.774Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:18.151Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:35.442Z [livraria-api] info GET /post  
+2024-02-06T18:36:42.188Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:42.906Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:43.594Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:44.280Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:44.800Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:36:46.939Z [livraria-api] info GET /post  
+2024-02-06T18:39:15.873Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:39:17.347Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:39:18.315Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:03.202Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:04.302Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:05.241Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:06.129Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:06.916Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:07.674Z [livraria-api] info DELETE /livro/info/id   id=1
+2024-02-06T18:40:10.521Z [livraria-api] info GET /post  
+2024-02-06T18:40:17.348Z [livraria-api] info POST /post  - {"livroId":19,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c27d112de7050c02c75bc3"}
+2024-02-06T18:40:19.128Z [livraria-api] error POST  - O livroId já está cadastrado
+2024-02-06T18:40:22.558Z [livraria-api] info GET /post  
+2024-02-06T18:40:33.627Z [livraria-api] info POST /post  - {"livroId":18,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c27d212de7050c02c75bc4"}
+2024-02-06T18:40:37.781Z [livraria-api] info GET /post  
+2024-02-06T18:40:47.554Z [livraria-api] info DELETE /livro/info/id   id=20
+2024-02-06T18:40:51.787Z [livraria-api] info GET /post  
+2024-02-06T18:41:01.348Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:41:05.303Z [livraria-api] info GET /post  
+2024-02-06T18:41:14.665Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:41:16.725Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:41:25.179Z [livraria-api] info GET /post  
+2024-02-06T18:42:05.353Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:42:47.605Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:43:46.421Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:43:48.686Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:43:49.888Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:43:59.029Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:44:33.455Z [livraria-api] info GET /post  
+2024-02-06T18:44:45.741Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:46:36.695Z [livraria-api] info GET /post  
+2024-02-06T18:47:22.990Z [livraria-api] info GET /post  
+2024-02-06T18:47:28.114Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:49:40.860Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:51:05.874Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:51:57.383Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:53:31.665Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:53:39.568Z [livraria-api] info GET /post  
+2024-02-06T18:54:15.913Z [livraria-api] info GET /post  
+2024-02-06T18:54:19.272Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:20.209Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:21.198Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:22.052Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:22.852Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:23.580Z [livraria-api] info DELETE /livro/info/id   id=19
+2024-02-06T18:54:27.278Z [livraria-api] info DELETE /livro/info/id   id=18
+2024-02-06T18:55:52.715Z [livraria-api] info POST /post  - {"livroId":18,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c280b82feabdbe338e43bc"}
+2024-02-06T18:55:57.744Z [livraria-api] info GET /post  
+2024-02-06T18:56:32.514Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T18:56:37.555Z [livraria-api] info GET /post  
+2024-02-06T19:00:03.312Z [livraria-api] info DELETE /livro/id   id=19
+2024-02-06T19:00:15.916Z [livraria-api] info GET /post  
+2024-02-06T19:00:27.698Z [livraria-api] info DELETE /livro/id   id=19
+2024-02-06T19:00:33.756Z [livraria-api] info GET /post  
+2024-02-06T19:00:47.380Z [livraria-api] info GET /post  
+2024-02-06T19:00:58.770Z [livraria-api] info DELETE /livro/id   id=18
+2024-02-06T19:01:06.594Z [livraria-api] info DELETE /livro/info/id   id=18
+2024-02-06T19:01:11.179Z [livraria-api] info GET /post  
+2024-02-06T19:01:36.800Z [livraria-api] info GET /post  
+2024-02-06T19:01:41.329Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T19:01:51.276Z [livraria-api] info GET /post  
+2024-02-06T19:05:11.131Z [livraria-api] info GET /post  
+2024-02-06T19:05:24.597Z [livraria-api] info DELETE /livro/id   id=18
+2024-02-06T19:05:31.333Z [livraria-api] info GET /livro/id
+2024-02-06T19:24:05.699Z [livraria-api] info GET /autor
+2024-02-06T19:26:06.237Z [livraria-api] info POST /livro - {"nome":"Nome do Livro","valor":50.2,"estoque":10,"autorId":1}
+2024-02-06T19:26:13.825Z [livraria-api] info POST /livro - {"nome":"Nome do Livro 2","valor":50.2,"estoque":11,"autorId":1}
+2024-02-06T19:26:24.570Z [livraria-api] error POST  - insert or update on table "livros" violates foreign key constraint "livros_autore_autor_id_fkey"
+2024-02-06T19:26:38.065Z [livraria-api] info POST /livro - {"nome":"Nome do Livro 2 autor 2","valor":50.2,"estoque":11,"autorId":3}
+2024-02-06T19:26:44.563Z [livraria-api] info POST /livro - {"nome":"Nome do Livro 2 autor 2","valor":50.2,"estoque":11,"autorId":4}
+2024-02-06T19:27:00.650Z [livraria-api] info GET /livro
+2024-02-06T19:27:28.838Z [livraria-api] info GET /livro
+2024-02-06T19:28:28.709Z [livraria-api] info GET /livro
+2024-02-06T19:28:31.288Z [livraria-api] info GET /livro
+2024-02-06T19:28:45.979Z [livraria-api] info GET /livro
+2024-02-06T19:29:12.621Z [livraria-api] info GET /livro
+2024-02-06T19:29:21.858Z [livraria-api] info GET /livro
+2024-02-06T19:30:08.229Z [livraria-api] info GET /livro
+2024-02-06T19:31:06.715Z [livraria-api] info GET /livro
+2024-02-06T19:48:12.521Z [livraria-api] error POST  - client.getLivroInfo is not a function
+2024-02-06T19:49:01.191Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:49:10.099Z [livraria-api] info GET /post  
+2024-02-06T19:49:15.811Z [livraria-api] error POST  - O livroId não está cadastrado
+2024-02-06T19:49:25.125Z [livraria-api] info GET /livro
+2024-02-06T19:49:34.326Z [livraria-api] info POST /post  - {"livroId":3,"descricao":"Descricao do livro","paginas":250,"avaliacoes":[{"nome":"Nome do Cliente","nota":5,"avaliacao":"Descricao da avaliacao"}],"_id":"65c28d4eb41ac4d2e1456f89"}
+2024-02-06T19:49:38.087Z [livraria-api] info GET /post  
+2024-02-06T19:49:53.082Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:49:59.833Z [livraria-api] info GET /post  
+2024-02-06T19:50:09.424Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:50:48.798Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:51:23.432Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:53:21.299Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:56:45.364Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T19:57:06.999Z [livraria-api] error POST  - livroInfo.avaliacao is not a function
+2024-02-06T19:59:27.049Z [livraria-api] error POST  - Cannot read properties of undefined (reading 'push')
+2024-02-06T20:01:05.567Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:01:34.002Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:02:31.273Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:04:07.582Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:04:15.071Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:04:19.442Z [livraria-api] info GET /post  
+2024-02-06T20:09:24.731Z [livraria-api] info GET /post  
+2024-02-06T20:09:33.266Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:09:41.229Z [livraria-api] info GET /post  
+2024-02-06T20:09:57.260Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:10:04.002Z [livraria-api] info GET /post  
+2024-02-06T20:12:17.175Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:12:24.495Z [livraria-api] info GET /post  
+2024-02-06T20:14:03.759Z [livraria-api] info GET /post  
+2024-02-06T20:14:19.265Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:14:20.988Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:14:24.706Z [livraria-api] info GET /post  
+2024-02-06T20:16:06.758Z [livraria-api] info GET /post  
+2024-02-06T20:16:16.597Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:16:21.590Z [livraria-api] info GET /post  
+2024-02-06T20:16:33.707Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:16:41.976Z [livraria-api] info GET /post  
+2024-02-06T20:17:32.214Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:39.150Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:40.139Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:43.641Z [livraria-api] info GET /post  
+2024-02-06T20:17:48.207Z [livraria-api] info DELETE /livro/info/id   id=18
+2024-02-06T20:17:54.394Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:55.214Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:55.978Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:17:59.770Z [livraria-api] info GET /post  
+2024-02-06T20:18:03.202Z [livraria-api] info DELETE /livro/info/id   id=18
+2024-02-06T20:18:04.097Z [livraria-api] info DELETE /livro/info/id   id=18
+2024-02-06T20:18:07.347Z [livraria-api] info GET /post  
+2024-02-06T20:18:13.242Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:18:17.133Z [livraria-api] info GET /post  
+2024-02-06T20:18:25.254Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:18:29.388Z [livraria-api] info GET /post  
+2024-02-06T20:18:33.269Z [livraria-api] info POST /livro/id/avaliacao  
+2024-02-06T20:18:37.849Z [livraria-api] info GET /post  
+2024-02-06T20:19:05.009Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:06.028Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:09.559Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T20:19:12.017Z [livraria-api] info PUT /post/avaliacao  
+2024-02-06T20:19:17.601Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:20.923Z [livraria-api] info GET /post  
+2024-02-06T20:19:24.871Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:29.779Z [livraria-api] info GET /post  
+2024-02-06T20:19:36.018Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:39.111Z [livraria-api] info GET /post  
+2024-02-06T20:19:46.831Z [livraria-api] info DELETE /livro/id/avaliacao/indice  
+2024-02-06T20:19:50.754Z [livraria-api] info GET /post  
+2024-02-06T20:20:33.279Z [livraria-api] info GET /venda
+2024-02-06T20:28:40.522Z [livraria-api] info GET /venda
+2024-02-06T20:28:56.636Z [livraria-api] info GET /venda?clienteId
+2024-02-06T20:28:56.636Z [livraria-api] info GET /venda
+2024-02-06T20:29:55.829Z [livraria-api] info GET /venda?clienteId
+2024-02-06T20:29:55.831Z [livraria-api] info GET /venda
+2024-02-06T20:32:24.552Z [livraria-api] info GET /venda?clienteId
+2024-02-06T20:32:36.439Z [livraria-api] info GET /venda?clienteId
+2024-02-06T20:37:53.976Z [livraria-api] info GET /venda
+2024-02-06T20:38:06.390Z [livraria-api] info GET /venda?livroId
+2024-02-06T20:38:15.445Z [livraria-api] info GET /venda?livroId
+2024-02-06T20:38:20.872Z [livraria-api] info GET /venda?livroId
+2024-02-06T20:44:34.854Z [livraria-api] error GET  - autores is not associated to Vendas!
+2024-02-06T20:44:45.100Z [livraria-api] error GET  - autores is not associated to Vendas!
+2024-02-06T20:46:11.503Z [livraria-api] info GET /venda
+2024-02-06T20:46:24.230Z [livraria-api] info GET /livro/id
+2024-02-06T20:46:34.204Z [livraria-api] info GET /venda?autorId

@@ -14,9 +14,9 @@ router.put("/", livroValidation.validateLivroUpdate, livroValidation.checkRules,
 
 router.post("/info", livroController.createLivroInfo);
 router.put("/info", livroController.updateLivroInfo);
-router.delete("/info", livroController.deleteLivroInfo);
+router.delete("/info/:id", livroController.deleteLivroInfo);
 
-
-//router.post("/:id/avaliacao", livroController.updateLivroInfo);
+router.post("/:id/avaliacao", livroController.updateAvaliacao);
+router.delete("/:id/avaliacao/:indice", livroController.deleteAvaliacao);
 
 export default router;

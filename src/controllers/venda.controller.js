@@ -16,8 +16,20 @@ async function createVenda(req, res, next) {
 
 async function getVendas(req, res, next) {
     try {
-        res.status(200).send(await VendaService.getVendas());
-        logger.info("GET /venda");
+
+        if (req.query.clienteId) {
+            res.status(200).send(await VendaService.getVendasByClienteId(req.query.clienteId));
+            logger.info("GET /venda?clienteId");            
+        }  else if (req.query.livroId) {
+            res.status(200).send(await VendaService.getVendasByLivroId(req.query.livroId));
+            logger.info("GET /venda?livroId");  
+        }  else if (req.query.autorId) {
+            res.status(200).send(await VendaService.getVendasByAutorId(req.query.autorId));
+            logger.info("GET /venda?autorId");                       
+        } else {
+            res.status(200).send(await VendaService.getVendas());
+            logger.info("GET /venda");
+        }
 
     } catch (err) {
         next(err);

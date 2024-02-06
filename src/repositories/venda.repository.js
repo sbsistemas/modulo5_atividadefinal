@@ -1,5 +1,5 @@
 import Venda from "../models/vendas.model.js";
-
+import Livro from "../models/livros.model.js";
 
 async function insertVenda(venda) {
     try {
@@ -29,7 +29,7 @@ async function getVenda(id) {
 
 }
 
-async function getVendasByCliente(id) {
+async function getVendasByClienteId(id) {
     try {
         return await Venda.findAll({
             where: {
@@ -42,7 +42,7 @@ async function getVendasByCliente(id) {
     }
 
 }
-async function getVendasByLivro(id) {
+async function getVendasByLivroId(id) {
     try {
         return await Venda.findAll({
             where: {
@@ -56,6 +56,22 @@ async function getVendasByLivro(id) {
 
 }
 
+async function getVendasByAutorId(id) {
+    try {
+        return await Venda.findAll({
+            include: [
+                {
+                    model: Livro,
+                    where: { autorId: id}
+                }
+            ]
+        });
+
+    } catch (err) {
+        throw err;
+    }
+
+}
 async function updateVenda(venda) {
 
     try {
@@ -91,8 +107,9 @@ export default {
     getVenda,
     updateVenda,
     deleteVenda,
-    getVendasByCliente,
-    getVendasByLivro
+    getVendasByClienteId,
+    getVendasByLivroId,
+    getVendasByAutorId
 
 
 }

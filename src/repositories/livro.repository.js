@@ -30,7 +30,7 @@ async function getLivro(id) {
 
 }
 
-async function getLivrosByAutor(id) {
+async function getLivrosByAutorId(id) {
     try {
         return await Livro.findAll( {
             where: {
@@ -80,6 +80,7 @@ async function deleteLivro(id) {
                 livroId: id
             }
         })
+        await deleteLivroInfo(id);
     } catch (err) {
         throw err;
     }
@@ -91,10 +92,10 @@ async function getLivroInfo(id) {
     const client = getClient();
     try {
         await client.connect();
-        let livroInfo = await client.db("modulo4").collection("livroInfo").findOne( { "livroId" : {$eq: id} });
+        const query = { livroId: parseInt(id)};
+        const livroInfo = await client.db("modulo4").collection("livroInfo").findOne( query );
         return livroInfo;
     } catch (err) {
-        console.log(err)
         throw err; 
     } finally {
         await client.close();
@@ -158,16 +159,44 @@ async function getLivrosInfo() {
 }
 
 async function deleteLivroInfo(id) {
-    
+
+    const livroInfo =  await getLivroInfo(id);
+    if (livroInfo) {
+        const client = getClient();
+        try {
+            let objectId =  new ObjectId(livroInfo._$oid);
+            objectId = livroInfo._$oid;        
+            await client.connect();
+            const retorno = await client.db("modulo4").collection("livroInfo").deleteOne( { _$oid: objectId } ) ;
+        } catch (err) {
+            throw err; 
+
+        } finally {
+            await client.close();
+        }    
+    }   
+
+}
+
+async function updateAvaliacao(livroId, avaliacao) {
     const client = getClient();
+
     try {
-        const objectId =  new ObjectId(livroInfo._$oid);
+
         await client.connect();
-        let retorno = await client.db("modulo4").collection("livroInfo").updateOne( {"_id": objectId},
-            {$set: { ...post} }
-        );
-        
-        return retorno;
+
+        let livroInfo = await this.getLivroInfo(livroId);
+        if (livroInfo) {
+           livroInfo.avaliacoes.push(avaliacao);
+
+           let objectId =  new ObjectId(livroInfo._$oid);
+           objectId = livroInfo._$oid;
+           delete livroInfo['_id'];
+           let retorno = await client.db("modulo4").collection("livroInfo").updateOne( { _$oid: objectId },
+               {$set: { ...livroInfo} }
+           );        
+           return retorno;
+        }
 
     } catch (err) {
         throw err; 
@@ -178,16 +207,23 @@ async function deleteLivroInfo(id) {
 
 }
 
-async function updateAvaliacao(livroInfo) {
+async function deleteAvaliacao(livroId, indice) {
     const client = getClient();
+
     try {
-        const objectId =  new ObjectId(livroInfo._$oid);
         await client.connect();
-        let retorno = await client.db("modulo4").collection("livroInfo").updateOne( {"_id": objectId},
-            {$set: { ...post} }
-        );
-        
-        return retorno;
+        let livroInfo = await this.getLivroInfo(livroId);
+        if (livroInfo) {
+           livroInfo.avaliacoes.splice(parseInt(indice),1);
+           console.log(livroInfo.avaliacoes);
+           let objectId =  new ObjectId(livroInfo._$oid);
+           objectId = livroInfo._$oid;
+           delete livroInfo['_id'];
+           let retorno = await client.db("modulo4").collection("livroInfo").updateOne( { _$oid: objectId },
+               {$set: { ...livroInfo} }
+           );        
+           return retorno;
+        }
 
     } catch (err) {
         throw err; 
@@ -204,12 +240,13 @@ export default {
     getLivro,
     updateLivro,
     deleteLivro,
-    getLivrosByAutor,
+    getLivrosByAutorId,
     updateEstoque,
     createLivroInfo,
     updateLivroInfo,
     getLivrosInfo,
     getLivroInfo,
     updateAvaliacao,
-    deleteLivroInfo
+    deleteLivroInfo,
+    deleteAvaliacao
 }

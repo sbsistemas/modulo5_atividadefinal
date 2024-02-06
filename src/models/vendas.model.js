@@ -23,4 +23,5 @@ const Venda = db.sequelize.define('Vendas', {
 Venda.belongsTo(Cliente, { foreignKey: "clienteId" });
 Venda.belongsTo(Livro, { foreignKey: "livroId" }); 
 
+
 export default Venda;

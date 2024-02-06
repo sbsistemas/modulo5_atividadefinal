@@ -19,6 +19,8 @@ async function createVenda(venda) {
     if (livro.estoque>0) {
         livro.estoque--;
         await livroService.updateEstoque(livro);
+
+        venda.valor = livro.valor;
         
         return await VendaRepository.insertVenda(venda);    
     }
@@ -35,12 +37,16 @@ async function getVenda(id) {
     return await VendaRepository.getVenda(id);
 }
 
-async function getVendasByCliente(id) {
-    return await VendaRepository.getVendasByCliente(id);
+async function getVendasByClienteId(id) {
+    return await VendaRepository.getVendasByClienteId(id);
 }
 
-async function getVendasByLivro(id) {
-    return await VendaRepository.getVendasByLivro(id);
+async function getVendasByLivroId(id) {
+    return await VendaRepository.getVendasByLivroId(id);
+}
+
+async function getVendasByAutorId(id) {
+    return await VendaRepository.getVendasByAutorId(id);
 }
 
 async function deleteVenda(id) {
@@ -59,9 +65,7 @@ async function deleteVenda(id) {
         throw new Error("A venda informada informado não existe");        
     }
     
-   
-    
-    
+        
 }
 
 async function updateVenda(venda)  {
@@ -71,12 +75,15 @@ async function updateVenda(venda)  {
     throw new Error("A venda informada informado não existe");    
 }
 
+
 export default {
     createVenda,
     getVendas,
     getVenda,
     deleteVenda,
     updateVenda,
-    getVendasByCliente,
-    getVendasByLivro
+    getVendasByClienteId,
+    getVendasByLivroId,
+    getVendasByAutorId
+
 }

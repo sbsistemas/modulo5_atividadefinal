@@ -14,8 +14,8 @@ async function getLivro(id) {
     return await LivroRepository.getLivro(id);
 }
 
-async function getLivrosByAutor(id) {
-    return await LivroRepository.getLivrosByAutor(id);
+async function getLivrosByAutorId(id) {
+    return await LivroRepository.getLivrosByAutorId(id);
 }
 
 async function deleteLivro(id) {
@@ -64,6 +64,7 @@ async function getLivroInfo(id) {
 }
 
 async function deleteLivroInfo(id) {
+    console.log("delete");
     return await LivroRepository.deleteLivroInfo(id);
 }
 
@@ -71,8 +72,12 @@ async function getLivrosInfo() {
     return await LivroRepository.getLivrosInfo();
 }
 
-async function updateAvaliacao(livroInfo) {
-    return await LivroRepository.updateAvaliacao(livroInfo);
+async function updateAvaliacao(livroId, avaliacao) {
+    return await LivroRepository.updateAvaliacao(livroId, avaliacao);
+}
+
+async function deleteAvaliacao(livroId, indice) {
+    return await LivroRepository.deleteAvaliacao(livroId, indice);
 }
 
 
@@ -82,12 +87,13 @@ export default {
     getLivro,
     deleteLivro,
     updateLivro,
-    getLivrosByAutor,
+    getLivrosByAutorId,
     updateEstoque,
     createLivroInfo,
     updateLivroInfo,
     getLivrosInfo,
     getLivroInfo,
     updateAvaliacao,
-    deleteLivroInfo
+    deleteLivroInfo,
+    deleteAvaliacao
 }

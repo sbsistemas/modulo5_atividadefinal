@@ -16,6 +16,8 @@ async function createCliente(req, res, next) {
 
 async function getClientes(req, res, next) {
     try {
+        
+        
         res.status(200).send(await ClienteService.getClientes());
         logger.info("GET /cliente");
 

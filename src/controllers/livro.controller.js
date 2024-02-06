@@ -17,8 +17,15 @@ async function createLivro(req, res, next) {
 
 async function getLivros(req, res, next) {
     try {
-        res.status(200).send(await LivroService.getLivros());
-        logger.info("GET /livro");
+        if (req.query.autorId) {
+            res.status(200).send(await LivroService.getLivrosByAutorId(req.query.autorId));
+            logger.info("GET /livro?autorId");            
+        } else {
+
+
+            res.status(200).send(await LivroService.getLivros());
+            logger.info("GET /livro");
+        }
 
     } catch (err) {
         next(err);
@@ -30,7 +37,6 @@ async function getLivro(req, res, next) {
     try {
         res.status(200).send(await LivroService.getLivro(req.params.id));
         logger.info("GET /livro/id");
-
     } catch (err) {
         next(err);
     }
@@ -75,19 +81,31 @@ async function createLivroInfo(req, res, next) {
     }
 }
 
-async function getLivrosInfo(req, res, next ) {
+async function getLivrosInfo(req, res, next) {
     try {
         res.send(await livroService.getLivrosInfo());
         logger.info(`GET /post  `);
 
     } catch (err) {
         next(err);
-    }    
+    }
 
 }
 
-async function updateLivroInfo(req, res, next ) {
-    console.log("aqui");
+ async function updateAvaliacao(req, res, next) {
+    const livroId = req.params.id;
+    const avaliacao = req.body;
+    try {
+        res.send(await livroService.updateAvaliacao(livroId, avaliacao));
+        logger.info(`POST /livro/id/avaliacao  `);
+
+    } catch (err) {
+        next(err);
+    }
+ }
+
+
+async function updateLivroInfo(req, res, next) {
     try {
         let livroInfo = req.body;
         res.send(await livroService.updateLivroInfo(livroInfo));
@@ -95,7 +113,7 @@ async function updateLivroInfo(req, res, next ) {
 
     } catch (err) {
         next(err);
-    }    
+    }
 
 }
 async function deleteLivroInfo(req, res, next) {
@@ -109,20 +127,20 @@ async function deleteLivroInfo(req, res, next) {
     }
 
 }
-
-
-async function updateAvaliacao(req, res, next ) {
-    console.log("aqui");
+async function deleteAvaliacao(req, res, next) {
+    const livroId = req.params.id;
+    const indice = req.params.indice;
     try {
-        let livroInfo = req.body;
-        res.send(await livroService.updateAvaliacao(livroInfo));
-        logger.info(`POST /post/avaliacao  `);
+        res.send(await livroService.deleteAvaliacao(livroId, indice));
+        logger.info(`DELETE /livro/id/avaliacao/indice  `);
 
     } catch (err) {
         next(err);
-    }    
-  
-}
+    }
+ }
+
+
+
 export default {
     createLivro,
     getLivros,
@@ -133,6 +151,7 @@ export default {
     getLivrosInfo,
     createLivroInfo,
     updateAvaliacao,
-    deleteLivroInfo
+    deleteLivroInfo,
+    deleteAvaliacao
 
 }
