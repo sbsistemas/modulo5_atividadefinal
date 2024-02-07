@@ -595,3 +595,53 @@
 2024-02-06T20:46:11.503Z [livraria-api] info GET /venda
 2024-02-06T20:46:24.230Z [livraria-api] info GET /livro/id
 2024-02-06T20:46:34.204Z [livraria-api] info GET /venda?autorId
+2024-02-07T22:02:30.345Z [livraria-api] info POST /autor - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:02:32.647Z [livraria-api] info POST /autor - {"nome":"Nome do cliente","email":"email@email.com","senha":"senhacriptografada","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:02:43.758Z [livraria-api] info GET /autor
+2024-02-07T22:19:25.703Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$QYeE3QhwvguprfFJMhrZ8uZWKE5dPwnp6BSdChyf5jmQuvOzWgkTC","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:48:52.500Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$7AqKCersLo5GCwwl.0SFZO66AOL.u32XoJZL/ZHpUOv4iLeOhD1ka","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:52:32.746Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$/aA7Bz0yQfTKXuHwGMpRpetZCtXXC6nDERDHSKC7uLTV1uVDiZVXe","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:52:49.022Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$WEI.qZftozIvXS5Nlptxqe7JX74zosn4Ob6pFy./IHLxU/2VvLszi","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:52:50.651Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$96IsBQVLAWWWmC/e.8KRUOqrKVCsr972W5P.lYdCIKo2zzJPlFrNa","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:53:55.434Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$YHflss9l2KCHiHJ9wVu/9O0xn1Zik33OPPBGmfevqZu8k8KuwTgSS","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:53:56.929Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$CcJeuvu6ic7LxCQbmzlj1OW/x5g6T23m5tiVd1pOMkwvlsF5rHuiG","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:53:58.582Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$/.hvEPv2M3q5LV1UT6yimu55yaPVqQShkOPjU/FeqHIs16jfdgUPu","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:54:35.127Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$4pCNbv4z7g6BbpwSFmRMJOeQSXzuOg5Es3DP76nrgXCXg8oF3Po7q","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:54:36.650Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$cg4iZa2/tKXpvDw5wBlwIuH9eLNqLq4./.3zGmrb7YWSYAE.14N/u","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:54:38.126Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$VfTuiiNB6QbpBnDZP9BYT.NWp0NTx8mL1O63bfiPk1CVI.dUfDUVm","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T22:54:39.606Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$ic83VzC.strT6meyib4iVukELJZh3XI3G5ZWUK8IuSllhBFK7kJVu","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:01:20.815Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas@yahoo.com.br","senha":"$2b$10$1dNogo8sHV0vi1MiYDR0kOTkPSFgH3Z84JmbS4RWjGHSI9ohwcy2q","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:01:27.837Z [livraria-api] error POST  - Validation error
+2024-02-07T23:01:31.446Z [livraria-api] error POST  - Validation error
+2024-02-07T23:01:33.187Z [livraria-api] error POST  - Validation error
+2024-02-07T23:01:34.869Z [livraria-api] error POST  - Validation error
+2024-02-07T23:01:45.004Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas2@yahoo.com.br","senha":"$2b$10$eRmmei/Vy6pJTX6Vl3t0JOLhIfBgxzRbi8aYt.R4aDhHrktBwblKC","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:02:38.221Z [livraria-api] error POST  - Validation error
+2024-02-07T23:02:48.232Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas3@yahoo.com.br","senha":"$2b$10$zLJlCxbiYhTNHo7Ul0jAB.8NqY9JGM3S5ACLV5OzPkPFHdV74LFqi","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:19:34.824Z [livraria-api] error POST  - Validation error
+2024-02-07T23:19:43.933Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas4@yahoo.com.br","senha":"$2b$10$.nQCG8eo/Bcw4P6gEZhyG.8XuDElp1ZyPgtYiDCRUR5aLOKqbgcgy","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:21:30.528Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas5@yahoo.com.br","senha":"$2b$10$U4i0ibB13QDK.G3eq4DUwenRVJez38dpmRz.vyxX.IgZgYdF7zAZe","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:22:53.242Z [livraria-api] error POST  - Validation error
+2024-02-07T23:23:01.796Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas7@yahoo.com.br","senha":"$2b$10$v0a9Ic20lDoGNFvW7Flc8eoispejFx2ThWUvxkeJsabJnzbLsahwK","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:28:42.851Z [livraria-api] error POST  - Validation error
+2024-02-07T23:28:51.831Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas8@yahoo.com.br","senha":"$2b$10$3Ew84LtAKv2pc7tpYESpfe2hqGSeGAqX9mS78UHbPnnT1egfPN2nW","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:31:15.543Z [livraria-api] info POST /cliente - {"nome":"Silvio Batista da Silva","email":"sbsistemas9@yahoo.com.br","senha":"$2b$10$lRsosw4GSNLCejf5XbLAVuosYTYe/k.6yI4Ub1/6mUkqiIG6m8wqW","telefone":"(14)11111-1111","endereco":"rua x numero y"}
+2024-02-07T23:33:20.237Z [livraria-api] info GET /cliente
+2024-02-07T23:34:00.073Z [livraria-api] info GET /cliente
+2024-02-07T23:34:01.727Z [livraria-api] info GET /cliente
+2024-02-07T23:34:03.320Z [livraria-api] info GET /cliente
+2024-02-07T23:34:19.081Z [livraria-api] info GET /cliente
+2024-02-07T23:34:20.722Z [livraria-api] info GET /cliente
+2024-02-07T23:35:06.801Z [livraria-api] info GET /cliente
+2024-02-07T23:35:08.554Z [livraria-api] info GET /cliente
+2024-02-07T23:35:14.893Z [livraria-api] info GET /cliente
+2024-02-07T23:35:24.770Z [livraria-api] info GET /cliente
+2024-02-07T23:35:28.641Z [livraria-api] info GET /cliente
+2024-02-07T23:36:30.974Z [livraria-api] info GET /cliente
+2024-02-07T23:36:34.705Z [livraria-api] info GET /cliente
+2024-02-07T23:36:50.140Z [livraria-api] info GET /cliente
+2024-02-07T23:38:08.677Z [livraria-api] info GET /cliente
+2024-02-07T23:38:13.289Z [livraria-api] info GET /cliente
+2024-02-07T23:39:59.231Z [livraria-api] info GET /cliente
+2024-02-07T23:41:06.972Z [livraria-api] info GET /cliente
+2024-02-07T23:41:42.088Z [livraria-api] info GET /cliente

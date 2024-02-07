@@ -17,6 +17,11 @@ async function getCliente(id) {
     return await ClienteRepository.getCliente(id);
 }
 
+async function getClienteByEmail(email) {
+    return await ClienteRepository.getClienteByEmail(email);
+}
+
+
 async function deleteCliente(id) {
     const vendas = await VendasService.getVendasByCliente(id);
     if (vendas.length>0) {
@@ -42,5 +47,6 @@ export default {
     getClientes,
     getCliente,
     deleteCliente,
-    updateCliente
+    updateCliente,
+    getClienteByEmail
 }

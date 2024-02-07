@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.get("/info", livroController.getLivrosInfo);
 router.post("/", livroValidation.validateLivroPost, livroValidation.checkRules, livroController.createLivro);
-router.get("/", livroController.getLivros);
+router.get("/",  livroController.getLivros);
 router.get("/:id", livroController.getLivro);
 router.delete("/:id", livroController.deleteLivro);
 router.put("/", livroValidation.validateLivroUpdate, livroValidation.checkRules, livroController.updateLivro);

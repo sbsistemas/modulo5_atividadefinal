@@ -16,7 +16,7 @@ async function createCliente(req, res, next) {
 
 async function getClientes(req, res, next) {
     try {
-        
+
         
         res.status(200).send(await ClienteService.getClientes());
         logger.info("GET /cliente");
@@ -37,6 +37,17 @@ async function getCliente(req, res, next) {
     }
 
 }
+async function getClienteByEmail(req, res, next) {
+    try {
+        res.status(200).send(await ClienteService.getClienteByEmail(req.params.email));
+        logger.info("GET /cliente/email");
+
+    } catch (err) {
+        next(err);
+    }
+
+}
+
 
 async function deleteCliente(req, res, next) {
     try {
@@ -71,6 +82,7 @@ export default {
     getClientes,
     getCliente,
     deleteCliente,
-    updateCliente
+    updateCliente,
+    getClienteByEmail
 
 }

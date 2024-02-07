@@ -30,11 +30,11 @@ async function getCliente(id) {
 
 }
 
-async function getVendasByClienteId(id) {
+async function getClienteByEmail(email) {
     try {
-        return await Animal.findAll( {
+        return await Cliente.findOne( {
             where: {
-                proprietarioId: id
+                email: email
             }
         });
 
@@ -77,6 +77,7 @@ export default {
     insertCliente,
     getClientes,
     getCliente,
+    getClienteByEmail,
     updateCliente,
     deleteCliente
     

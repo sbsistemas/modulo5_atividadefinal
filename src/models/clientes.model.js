@@ -14,7 +14,8 @@ const Cliente = db.sequelize.define('clientes', {
     },
     email: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
+        Unique: true
     },
     senha: {
         type: Sequelize.STRING,
